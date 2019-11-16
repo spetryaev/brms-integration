@@ -5,7 +5,6 @@ public class BankDeposit {
     private int amount;
     private int term;
     private int interest;
-    private int interestAmount;
 
     public int getAmount() {
         return amount;
@@ -31,11 +30,4 @@ public class BankDeposit {
         this.interest = interest;
     }
 
-    public int getInterestAmount() {
-        return interestAmount;
-    }
-
-    public void setInterestAmount(int interestAmount) {
-        this.interestAmount = interestAmount;
-    }
 }

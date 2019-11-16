@@ -6,12 +6,14 @@ import ru.sfedu.brms.model.BankDeposit;
 
 public class BankDepositService {
 
-    private KieSession kieSession = new KieBeanFactory().getKieSession();
+    private KieSession kieSession;
 
-    public BankDeposit applyInterestAmountToDeposit(BankDeposit deposit){
+    public BankDeposit applyInterestToDeposit(BankDeposit deposit){
+        kieSession = new KieBeanFactory().getKieSession();
         kieSession.insert(deposit);
         kieSession.fireAllRules();
-        System.out.println("Interest amount = " + deposit.getInterestAmount());
+        System.out.println("Interest amount = " + deposit.getInterest());
+        kieSession.destroy();
         return deposit;
     }
 }

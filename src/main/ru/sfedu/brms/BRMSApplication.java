@@ -1,38 +1,30 @@
 package ru.sfedu.brms;
 
-import org.kie.api.runtime.KieContainer;
-import org.kie.api.runtime.KieSession;
-import ru.sfedu.brms.config.KieBeanFactory;
 import ru.sfedu.brms.model.BankDeposit;
-
-import java.io.IOException;
+import ru.sfedu.brms.service.BankDepositService;
 
 public class BRMSApplication {
 
     public static void main(String[] args) {
-        System.out.println("Hey");
-        /*BankDepositService service = new BankDepositService();
-        BankDeposit deposit = new BankDeposit();
-        deposit.setAmount(1);
-        deposit.setTerm(0);
-        deposit.setInterest(0);
-        service.applyInterestAmountToDeposit(deposit);*/
+        BankDepositService depositService = new BankDepositService();
 
-        KieBeanFactory factory = new KieBeanFactory();
         try {
-            KieSession kieSession = factory.getKieSession();
             BankDeposit deposit = new BankDeposit();
-            deposit.setAmount(1);
-            deposit.setTerm(2);
-            deposit.setInterest(3);
+            deposit.setAmount(1_000_000);
+            deposit.setTerm(24);
+            depositService.applyInterestToDeposit(deposit);
 
-            kieSession.insert(deposit);
-            kieSession.fireAllRules();
-            System.out.println(deposit.getInterestAmount());
+            deposit.setTerm(12);
+            depositService.applyInterestToDeposit(deposit);
+
+            deposit.setAmount(500_000);
+            depositService.applyInterestToDeposit(deposit);
+
+            deposit.setAmount(500_000);
+            deposit.setTerm(24);
+            depositService.applyInterestToDeposit(deposit);
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
 }
