@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc36faf-a34a-4e1a-afb2-4db56947812f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/brms/service/BankDepositServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brms.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resouces/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resouces/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/BRMSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/BRMSApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/model/BankDeposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/model/BankDeposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/service/BankDepositService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/service/BankDepositService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/brms.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resouces/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resouces/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resouces/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resouces/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/BRMSApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/BRMSApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/model/BankDeposit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/model/BankDeposit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/service/BankDepositService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/service/BankDepositService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/brms/service/BankDepositServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/brms/service/BankDepositServiceTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +151,7 @@
       <updated>1573841417177</updated>
       <workItem from="1573841419496" duration="8540000" />
       <workItem from="1573855417334" duration="251000" />
-      <workItem from="1573893516964" duration="3989000" />
+      <workItem from="1573893516964" duration="4161000" />
     </task>
     <servers />
   </component>
