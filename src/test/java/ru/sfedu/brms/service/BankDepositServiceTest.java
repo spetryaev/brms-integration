@@ -33,6 +33,6 @@ public class BankDepositServiceTest {
         deposit.setAmount(500_000);
         deposit.setTerm(24);
         depositService.applyInterestToDeposit(deposit);
-        assertEquals(5, deposit.getInterest());
+        assertEquals(6, deposit.getInterest());
     }
 }

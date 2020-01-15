@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc36faf-a34a-4e1a-afb2-4db56947812f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/BRMSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/BRMSApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/brms/service/BankDepositServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/brms/service/BankDepositServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/BRMSApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/BRMSApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/sfedu/brms/service/BankDepositServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/sfedu/brms/service/BankDepositServiceTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,6 +157,7 @@
       <workItem from="1573841419496" duration="8540000" />
       <workItem from="1573855417334" duration="251000" />
       <workItem from="1573893516964" duration="4161000" />
+      <workItem from="1579100874990" duration="838000" />
     </task>
     <servers />
   </component>
