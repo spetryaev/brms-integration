@@ -2,37 +2,40 @@ package ru.sfedu.brms.service;
 
 import org.junit.Before;
 import org.junit.Test;
+import ru.sfedu.brms.config.KieBeanFactory;
 import ru.sfedu.brms.model.BankDeposit;
+
+import java.util.*;
 
 import static org.junit.Assert.*;
 
 public class BankDepositServiceTest {
 
     private BankDepositService depositService;
+
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         depositService = new BankDepositService();
     }
 
     @Test
-    public void applyInterestToDepositTest() {
-        BankDeposit deposit = new BankDeposit();
-        deposit.setAmount(1_000_000);
-        deposit.setTerm(24);
-        depositService.applyInterestToDeposit(deposit);
-        assertEquals(4, deposit.getInterest());
+    public void applyInterestToDepositTest1() {
+        List<BankDeposit> bankDeposits = new ArrayList<>(Arrays.asList(
+                new BankDeposit(500_000, 24),
+                new BankDeposit(1_000_000, 24),
+                new BankDeposit(500_000, 12),
+                new BankDeposit(1_000_000, 12)
+        ));
 
-        deposit.setTerm(12);
-        depositService.applyInterestToDeposit(deposit);
-        assertEquals(3, deposit.getInterest());
+        depositService.applyInterestToDeposit(bankDeposits);
 
-        deposit.setAmount(500_000);
-        depositService.applyInterestToDeposit(deposit);
-        assertEquals(4, deposit.getInterest());
+        assert bankDeposits.size() == 4;
+        assert bankDeposits.stream().allMatch(Objects::nonNull);
 
-        deposit.setAmount(500_000);
-        deposit.setTerm(24);
-        depositService.applyInterestToDeposit(deposit);
-        assertEquals(6, deposit.getInterest());
+        assertEquals(7, bankDeposits.get(0).getInterest());
+        assertEquals(12, bankDeposits.get(1).getInterest());
+        assertEquals(5, bankDeposits.get(2).getInterest());
+        assertEquals(8, bankDeposits.get(3).getInterest());
     }
+
 }

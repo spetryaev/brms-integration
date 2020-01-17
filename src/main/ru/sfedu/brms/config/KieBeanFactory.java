@@ -12,6 +12,7 @@ import org.kie.internal.builder.KnowledgeBuilderFactory;
 import org.kie.internal.io.ResourceFactory;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -36,7 +37,7 @@ public class KieBeanFactory {
      * an easy way to get a ready-to-use session
      * @return
      */
-    public KieSession getKieSession(){
+    public KieSession newKieSession(){
         getKieRepository();
         KieFileSystem kieFileSystem = kieServices.newKieFileSystem();
 
@@ -56,7 +57,7 @@ public class KieBeanFactory {
      * an easy way to get a ready-to-use session with manual resource injection
      * @return
      */
-    public KieSession getKieSession(Resource dt) {
+    public KieSession newKieSession(Resource dt) {
         KieFileSystem kieFileSystem = kieServices.newKieFileSystem().write(dt);
         KieBuilder kieBuilder = kieServices.newKieBuilder(kieFileSystem).buildAll();
 
@@ -70,7 +71,9 @@ public class KieBeanFactory {
 
     private KieFileSystem getKieFileSystem() throws IOException{
         KieFileSystem kieFileSystem = kieServices.newKieFileSystem();
-        List<String> rules = Arrays.asList("ru/sfedu/brms/rules/BankDeposit_rules.xls");
+        List<String> rules = Arrays.asList(
+                "ru/sfedu/brms/rules/BankDeposit_rules.xls"
+        );
         for(String rule:rules){
             kieFileSystem.write(ResourceFactory.newClassPathResource(rule));
         }

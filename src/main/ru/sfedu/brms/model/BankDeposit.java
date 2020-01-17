@@ -30,4 +30,10 @@ public class BankDeposit {
         this.interest = interest;
     }
 
+    public BankDeposit(){}
+
+    public BankDeposit(int amount, int term) {
+        this.amount = amount;
+        this.term = term;
+    }
 }
