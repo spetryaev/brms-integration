@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc36faf-a34a-4e1a-afb2-4db56947812f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/brms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resouces/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/dao/DaoBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/model/BankClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/model/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/model/EntityBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/config/KieBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/config/KieBeanFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/model/BankDeposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/model/BankDeposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/service/BankDepositService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/service/BankDepositService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/brms/service/BankDepositServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/brms/service/BankDepositServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/BRMSApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/BRMSApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/model/BankDeposit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/model/BankDeposit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/service/BankDepositService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/service/BankDepositService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/sfedu/brms/service/BankDepositServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/sfedu/brms/service/BankDepositServiceTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +35,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -200,7 +195,7 @@
       <workItem from="1573893516964" duration="4161000" />
       <workItem from="1579100874990" duration="2728000" />
       <workItem from="1579263873525" duration="291000" />
-      <workItem from="1579275576373" duration="3703000" />
+      <workItem from="1579275576373" duration="8443000" />
     </task>
     <servers />
   </component>

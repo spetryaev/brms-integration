@@ -1,5 +1,7 @@
 package ru.sfedu.brms.model;
 
+import javax.persistence.Entity;
+
 public class BankDeposit {
 
     private int amount;
