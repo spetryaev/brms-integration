@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7eb090e0-2285-42fc-9f40-9f156257c9cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evilcorp/brms/repository/BankDepositRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/evilcorp/brms/controller/BankDepositController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evilcorp/brms/controller/BankDepositController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evilcorp/brms/model/BankDeposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evilcorp/brms/model/BankDeposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evilcorp/brms/service/BankDepositService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evilcorp/brms/service/BankDepositService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +189,7 @@
       <workItem from="1579298316234" duration="2181000" />
       <workItem from="1579301669507" duration="1808000" />
       <workItem from="1579332837254" duration="1293000" />
-      <workItem from="1579334598822" duration="1972000" />
+      <workItem from="1579334598822" duration="3027000" />
     </task>
     <servers />
   </component>

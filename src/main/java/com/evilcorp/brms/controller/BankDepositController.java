@@ -27,7 +27,7 @@ public class BankDepositController {
     @GET
     @Path("/deposit/{id}")
     public Response getById(@PathParam("id") Long id) throws JsonProcessingException {
-        log.info("GET request to /api/data");
+        log.info("GET request to /api/deposit/" + id);
         BankDeposit deposit = repository.getById(id);
         return Response.status(200).entity(objectMapper.writeValueAsString(deposit)).build();
     }
@@ -35,7 +35,7 @@ public class BankDepositController {
     @GET
     @Path("/deposit")
     public Response getAll() throws JsonProcessingException {
-        log.info("GET request to /api/data");
+        log.info("GET request to /api/deposit");
         List<BankDeposit> deposits = repository.getAll();
         return Response.status(200).entity(objectMapper.writeValueAsString(deposits)).build();
     }
@@ -44,6 +44,7 @@ public class BankDepositController {
     @Path("/deposit")
     @Consumes("application/json")
     public Response save(String json){
+        log.info("POST request to /api/deposit");
         try {
             BankDeposit bankDeposit = objectMapper.readValue(json, BankDeposit.class);
             repository.save(bankDeposit);
