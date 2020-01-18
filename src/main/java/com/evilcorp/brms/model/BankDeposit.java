@@ -2,6 +2,7 @@ package com.evilcorp.brms.model;
 
 public class BankDeposit {
 
+    private Long id;
     private int amount;
     private int term;
     private int interest;
@@ -35,5 +36,13 @@ public class BankDeposit {
     public BankDeposit(int amount, int term) {
         this.amount = amount;
         this.term = term;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

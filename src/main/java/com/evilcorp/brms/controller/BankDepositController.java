@@ -2,14 +2,16 @@ package com.evilcorp.brms.controller;
 
 
 import com.evilcorp.brms.model.BankDeposit;
+import com.evilcorp.brms.repository.BankDepositRepository;
 import com.evilcorp.brms.service.BankDepositService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
+import org.jboss.resteasy.annotations.Body;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
+import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -20,22 +22,36 @@ public class BankDepositController {
     private Logger log = Logger.getLogger(BankDepositController.class);
     private ObjectMapper objectMapper = new ObjectMapper();
 
-    private BankDepositService bankDepositService = new BankDepositService();
+    private BankDepositRepository repository = new BankDepositRepository();
 
     @GET
-    @Path("/data")
-    public Response data() throws JsonProcessingException {
+    @Path("/deposit/{id}")
+    public Response getById(@PathParam("id") Long id) throws JsonProcessingException {
         log.info("GET request to /api/data");
-        List<BankDeposit> bankDeposits = new ArrayList<>(Arrays.asList(
-                new BankDeposit(500_000, 24),
-                new BankDeposit(1_000_000, 24),
-                new BankDeposit(500_000, 12),
-                new BankDeposit(1_000_000, 12)
-        ));
+        BankDeposit deposit = repository.getById(id);
+        return Response.status(200).entity(objectMapper.writeValueAsString(deposit)).build();
+    }
 
-        bankDepositService.applyInterestToDeposit(bankDeposits);
+    @GET
+    @Path("/deposit")
+    public Response getAll() throws JsonProcessingException {
+        log.info("GET request to /api/data");
+        List<BankDeposit> deposits = repository.getAll();
+        return Response.status(200).entity(objectMapper.writeValueAsString(deposits)).build();
+    }
 
-        return Response.status(200).entity(objectMapper.writeValueAsString(bankDeposits)).build();
+    @POST
+    @Path("/deposit")
+    @Consumes("application/json")
+    public Response save(String json){
+        try {
+            BankDeposit bankDeposit = objectMapper.readValue(json, BankDeposit.class);
+            repository.save(bankDeposit);
+            return Response.status(200).build();
+        } catch (IOException e) {
+            log.info(e.getMessage());
+            return Response.status(500).build();
+        }
     }
 
 }
