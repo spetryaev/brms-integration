@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="brms" />
+        <module name="brms-integration" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="brms-integration" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

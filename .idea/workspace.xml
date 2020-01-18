@@ -1,22 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cc36faf-a34a-4e1a-afb2-4db56947812f" name="Default Changelist" comment="">
+    <list default="true" id="7eb090e0-2285-42fc-9f40-9f156257c9cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/config/KieBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/config/KieBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/model/BankDeposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/model/BankDeposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/service/BankDepositService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ru/sfedu/brms/service/BankDepositService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/brms/service/BankDepositServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/brms/service/BankDepositServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/BRMSApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/BRMSApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/model/BankDeposit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/model/BankDeposit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/rules/BankDeposit_rules.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/service/BankDepositService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/service/BankDepositService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/sfedu/brms/service/BankDepositServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/sfedu/brms/service/BankDepositServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resouces/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resouces/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/BRMSApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/config/KieBeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/model/BankDeposit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ru/sfedu/brms/service/BankDepositService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/brms/service/BankDepositServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resouces/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resouces/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resouces/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/BRMSApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/config/KieBeanFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/model/BankDeposit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/rules/BankDeposit_rules.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/sfedu/brms/service/BankDepositService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/sfedu/brms/service/BankDepositServiceTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +55,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -51,42 +63,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1TfBlBYewKOJ1iiMZmT1KzBsVbA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1WXaHySltji2D6VJQ7cRgrf8hrr" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/ru/sfedu/brms/service" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46635732" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="ru.sfedu.brms.service" />
+      <recent name="com.evilcorp.computervisionweb.service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\university_projects\brms\src\main\resouces\ru\sfedu\brms\rules" />
-      <recent name="C:\Users\User\Documents\university_projects\brms\src\main\resouces" />
-      <recent name="C:\Users\User\Documents\university_projects\brms\src\main\resouces\ru.sfedu.brms\rules" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.evilcorp.computervisionweb.service" />
+      <recent name="com.evilcorp.computervisionweb.model" />
+      <recent name="com.evilcorp.computervisionweb.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sergey\Desktop\ComputerVision_OpenCV-web--master\src" />
+      <recent name="C:\Users\sergey\Desktop\ComputerVision_OpenCV-web--master\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -102,34 +108,8 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.BankDepositServiceTest.applyInterestToDepositTest1">
-    <configuration name="BRMSApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.sfedu.brms.BRMSApplication" />
-      <module name="brms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.sfedu.brms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BRMSApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.ru.sfedu.brms.BRMSApplication" />
-      <module name="brms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.ru.sfedu.brms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BankDepositServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="brms" />
+      <module name="brms-integration" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.sfedu.brms.service.*" />
@@ -143,24 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankDepositServiceTest.applyInterestToDepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="brms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.sfedu.brms.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.sfedu.brms.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.sfedu.brms.service.BankDepositServiceTest" />
-      <option name="METHOD_NAME" value="applyInterestToDepositTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BankDepositServiceTest.applyInterestToDepositTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="brms" />
+      <module name="brms-integration" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.sfedu.brms.service.*" />
@@ -175,13 +139,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="computer-vision [deploy]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="wildfly:deploy" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="computer-vision [undeploy] " type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="wildfly:undeploy" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BankDepositServiceTest" />
+      <item itemvalue="JUnit.BankDepositServiceTest.applyInterestToDepositTest1" />
+      <item itemvalue="Maven.computer-vision [deploy]" />
+      <item itemvalue="Maven.computer-vision [undeploy] " />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BankDepositServiceTest.applyInterestToDepositTest1" />
         <item itemvalue="JUnit.BankDepositServiceTest" />
-        <item itemvalue="JUnit.BankDepositServiceTest.applyInterestToDepositTest" />
-        <item itemvalue="Application.BRMSApplication (1)" />
-        <item itemvalue="Application.BRMSApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -190,17 +207,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2cc36faf-a34a-4e1a-afb2-4db56947812f" name="Default Changelist" comment="" />
-      <created>1573841417177</created>
+      <changelist id="7eb090e0-2285-42fc-9f40-9f156257c9cc" name="Default Changelist" comment="" />
+      <created>1579298309108</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573841417177</updated>
-      <workItem from="1573841419496" duration="8540000" />
-      <workItem from="1573855417334" duration="251000" />
-      <workItem from="1573893516964" duration="4161000" />
-      <workItem from="1579100874990" duration="2728000" />
-      <workItem from="1579263873525" duration="291000" />
-      <workItem from="1579275576373" duration="3703000" />
+      <updated>1579298309108</updated>
+      <workItem from="1579298316234" duration="2181000" />
+      <workItem from="1579301669507" duration="1808000" />
+      <workItem from="1579332837254" duration="1293000" />
+      <workItem from="1579334598822" duration="288000" />
     </task>
     <servers />
   </component>
@@ -212,9 +227,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
